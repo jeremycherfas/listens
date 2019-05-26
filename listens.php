@@ -348,9 +348,9 @@ function build_content($title, $mydate, $theUrl, $theimage)
 date: $mydate
 taxonomy:
 category:
-	- stream // My taxonomy; yours may differ
+	- stream
 tag:
-	- podcasts // My taxonomy, yours may differ
+	- podcasts
 summary:
 enabled: '0'
 header_image: '0'
