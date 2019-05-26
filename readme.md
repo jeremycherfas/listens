@@ -4,7 +4,7 @@ I wrote this script based on https://github.com/cleverdevil/Known-Listen to get 
 
 For each podcast, it creates a new entry in Grav, using my particular installation details. These are easily modified. You will need to create your own template.
 
-I currently run it by hand every couple of days, taking care to delete previously finished podcasts from my Overcast queue. 
+I currently run it by hand every couple of days, taking care to delete previously finished podcasts from my Overcast queue. The very first time it runs you will get a warning because some of the housekeeping files do not exist.
 
 Currently it does not create entries using micropub, but I believe that it would not be difficult to modify the post creation process to do that.
 
