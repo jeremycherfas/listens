@@ -3,6 +3,7 @@ config.php
 cookie.txt
 *.xml
 *.json
+*.txt
 
 ### OSX ###
 # General
