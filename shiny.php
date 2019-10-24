@@ -213,11 +213,10 @@ category:
 	- stream
 tag:
 	- podcasts
-summary:
-enabled: '0'
 header_image: '0'
 theurl: $theUrl
-theimage: $theimage
+image: $theimage
+template: item
 --- \n";
 return($yaml);
 }
