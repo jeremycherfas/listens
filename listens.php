@@ -342,15 +342,15 @@ return false;
 function build_content($title, $mydate, $theUrl, $theimage)
 {
     $yaml = "---\n";
-    $yaml = $yaml . 'title: '. '"Listened to: ' . $title . '"' . "\n";
+    $yaml = $yaml . 'title: '. '"&#127911; ' . $title . '"' . "\n";
     $yaml = $yaml .
 "published: true
 date: $mydate
 taxonomy:
-category:
-	- stream
-tag:
-	- podcasts
+    category:
+        - stream
+    tag:
+        - podcasts
 header_image: '0'
 theurl: $theUrl
 image: $theimage
